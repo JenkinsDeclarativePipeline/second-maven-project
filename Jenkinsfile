@@ -38,4 +38,5 @@ pipeline
             -Dsonar.login=sqp_5a5a5ab5c37e4393ba8864f847d3e63bfa4f6be4'
         }
     }
+ }
 }
