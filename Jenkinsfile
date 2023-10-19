@@ -34,10 +34,10 @@ pipeline
         withSonarQubeEnv('sonar-9.9.2') 
         {
         // requires SonarQube Scanner for Maven 3.2+
-            sh 'mvn sonar:sonar \
+            sh "mvn sonar:sonar \
             -Dsonar.projectKey=maven-project \
             -Dsonar.host.url=http://13.239.5.214:9000 \
-            -Dsonar.login=sqp_5a5a5ab5c37e4393ba8864f847d3e63bfa4f6be4'
+            -Dsonar.login=sqp_5a5a5ab5c37e4393ba8864f847d3e63bfa4f6be4"
         }
         }
     }
